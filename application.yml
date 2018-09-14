@@ -1,12 +1,10 @@
 ﻿spring:
   profiles:
     active:dev
----
 spring:
   profiles:dev
   application:
     name:springcloud-config-zsh-dev
----
 spring:
   profiles:test
   application:
