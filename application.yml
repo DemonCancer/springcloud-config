@@ -1,11 +1,13 @@
-﻿spring: 
+﻿spring:
   profiles:
     active: dev
-spring: 
+---
+spring:
   profiles: dev
-  application: 
+  application:
     name: springcloud-config-zsh-dev
-spring: 
+---
+spring:
   profiles: test
-  application: 
+  application:
     name: springcloud-config-zsh-test
